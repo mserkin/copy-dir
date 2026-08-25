@@ -1,0 +1,12 @@
+{
+    "name": "copy-dir",
+    "version": "1.0.0",
+    "description": "Utility script for copying all files from a source directory into a destination directory while renaming them according to a template.",
+    "main": "copy-dir.js",
+    "scripts": {
+        "start": "node copy-dir.js <sourceDir> <destDir> <template>"
+    },
+    "keywords": [],
+    "author": "Mikhail Serkin",
+    "license": "MIT"
+}
