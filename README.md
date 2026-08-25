@@ -50,7 +50,8 @@ then the destination folder will contain:
 ## Behavior
 
 - creates the destination directory automatically if it does not exist
-- reads all files from the source directory
+- reads all files recursively from the source directory
+- recreates nested subdirectories in the destination while keeping the relative structure
 - keeps the file content unchanged
 - writes the copied files to the destination directory
 - adds leading zeros to the index according to the width in the template
@@ -64,3 +65,5 @@ The index width is specified directly in the template, for example:
 ```
 
 This means the index will be formatted as 3 digits, such as `001`, `002`, `010`.
+
+Nested directories are also copied recursively, preserving their relative paths under the destination folder.
