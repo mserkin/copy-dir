@@ -8,5 +8,13 @@
     },
     "keywords": [],
     "author": "Mikhail Serkin",
-    "license": "MIT"
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mserkin/copy-dir.git"
+    },
+    "bugs": {
+        "url": "https://github.com/mserkin/copy-dir/issues"
+    },
+    "homepage": "https://github.com/mserkin/copy-dir#readme"
 }
